@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 Photo Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 600px; /* Adjust this to control the overall width */
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/12.png" alt="Photo 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/13.png" alt="Photo 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/14.png" alt="Photo 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/15.png" alt="Photo 4">
+        </div>
+		<div class="gallery-item">
+            <img src="images/portfolio/gallery/16.png" alt="Photo 5">
+        </div>
+		<div class="gallery-item">
+            <img src="images/portfolio/gallery/17.png" alt="Photo 6">
+        </div>
+    </div>
+
+</body>
+</html>

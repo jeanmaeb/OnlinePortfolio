@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/1.png" alt="Photo 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/2.png" alt="Photo 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/jean1.png" alt="Photo 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/jean2.png" alt="Photo 4">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/josh1.png" alt="Photo 5">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/josh2.png" alt="Photo 6">
+        </div>
+        <div class="gallery-item">
+            <img src="images/portfolio/gallery/josh3.png" alt="Photo 7">
+        </div>
+      
+    </div>
+
+</body>
+</html>
